@@ -6,13 +6,7 @@ import { useRouter } from 'next/router';
 const links = [
     { name: 'home', path: '/', icon: <HiHome /> },
     { name: 'about', path: '/about', icon: <HiUser /> },
-    { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
     { name: 'work', path: '/work', icon: <HiViewColumns /> },
-    {
-      name: 'testimonials',
-      path: '/testimonials',
-      icon: <HiChatBubbleBottomCenterText />,
-    },
     {
       name: 'contact',
       path: '/contact',
@@ -30,7 +24,7 @@ const links = [
             <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
                 {links.map((link, index) => {
                     return (
-                    <Link key={index} className={`${link.path === pathname && 'text-accent'} relative flex items-center group hover:text-accent transition-all:`} href={link.path}>
+                    <Link key={index} className={`${link.path === pathname && 'text-[#3282B8]'} relative flex items-center group hover:text-[#3282B8] transition-all:`} href={link.path}>
                         {/* TOOLTIP */}
                         <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'>
                             <div className='bg-white relative flex text-primary items-center p-[6px] rounded-[3px]'>

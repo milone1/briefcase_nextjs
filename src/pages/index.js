@@ -6,9 +6,11 @@ import { motion } from "framer-motion";
 import { fadeIn } from '../utils/variants'
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full">
+    <div className="bg-[#100F0F] h-full">
       {/* text */}
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+
+      
+      <div className="w-full h-full bg-gradient-to-br from-gray-800 via-gray-900 to-black">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           {/* title */}
           <motion.h1 
@@ -17,8 +19,8 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className="h1">
-            Transforming Ideas <br/> Into {'  '}
-            <span className="text-accent">Digital Reality</span>
+            Imagination <br/> Into {'  '}
+            <span className="text-[#3282B8]">Code <span className="h1 text-white">and </span>Desing.</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p 
@@ -27,7 +29,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-            Duis laboris et aliqua tempor fugiat elit veniam ad consequat tempor. Elit culpa cupidatat laboris aliqua ut do elit proident ex nostrud ex magna proident. Amet dolore enim reprehenderit deserunt consequat commodo nostrud velit eiusmod. Occaecat tempor aute aliqua aliquip ullamco id eu esse. Et exercitation nisi esse laboris eiusmod. Anim cupidatat ea incididunt occaecat esse cillum aute nostrud irure adipisicing sit. In mollit voluptate laboris qui officia reprehenderit culpa consequat voluptate laboris.
+            I'm Erick Millan, a self-taught programmer who learned to write code through online courses. I have 2 years of experience and I started my career as a layout designer in HTML and CSS, currently I am a full-stack developer, developing apis in .net, django and springboot, I also have experience developing applications for android and ios. I love writing code while listening to any type of music, depending on what my mood requires at that moment.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
