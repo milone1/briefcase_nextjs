@@ -29,7 +29,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-            I'm Erick Millan, a self-taught programmer who learned to write code through online courses. I have 2 years of experience and I started my career as a layout designer in HTML and CSS, currently I am a full-stack developer, developing apis in .net, django and springboot, I also have experience developing applications for android and ios. I love writing code while listening to any type of music, depending on what my mood requires at that moment.
+            I&apos;m Erick Millan, a self-taught programmer who learned to write code through online courses. I have 2 years of experience and I started my career as a layout designer in HTML and CSS, currently I am a full-stack developer, developing apis in .net, django and springboot, I also have experience developing applications for android and ios. I love writing code while listening to any type of music, depending on what my mood requires at that moment.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
