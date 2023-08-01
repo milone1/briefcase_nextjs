@@ -10,7 +10,8 @@ import {
     FaFigma,
     FaPython,
     FaJava,
-    FaNodeJs
+    FaNodeJs,
+    FaAngular,
 } from 'react-icons/fa';
 
 import {
@@ -192,6 +193,7 @@ const About = () => {
                                                 <FaNodeJs />
                                                 <SiCsharp />
                                                 <SiTailwindcss />
+                                                <FaAngular />
                                             </div>
                                         )}
                                         {indexItem === 1 && item.title === 'Mobile' && (
