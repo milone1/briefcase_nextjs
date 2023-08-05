@@ -37,6 +37,13 @@ const WorkSlider = () => {
                 repository: 'https://github.com/milone1/moviesApp_flutter'
               },
             ],
+            images: [
+              {
+                title: 'qr_scan_flutter',
+                path: '/qrscanlite.jpg',
+                repository: 'https://github.com/milone1/qr_scan_flutter'
+              },
+            ],
           }
         ],
       };
