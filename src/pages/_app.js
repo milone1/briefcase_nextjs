@@ -17,7 +17,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Welcome to my personal portfolio! I'm Erick Millan Marin, a skilled software developer passionate about creating impactful applications." />
         <meta property="og:title" content="Erick Millan Marin - Software Developer Portfolio" />
         <meta property="og:description" content="Explore the projects and skills of Erick Millan Marin, a dedicated software developer focused on delivering efficient and user-friendly applications." />
-        <meta property="og:image" content="/public/screen.webp" />
+        <meta property="og:image" content={`${process.env.NEXT_PUBLIC_BASE_URL}/public/screen.webp`} />
+        {/* <meta property="og:image" content="/public/screen.webp" /> */}
         <meta property="og:url" content="https://briefcase-erickmilan.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@erickdev" />
