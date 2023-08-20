@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from '../utils/variants'
 const Home = () => {
   return (
-    <div className="bg-[#100F0F] h-full">
+    <section className="bg-[#100F0F] h-full">
       {/* text */}
 
       
@@ -61,7 +61,7 @@ const Home = () => {
           <Avatar />
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 
