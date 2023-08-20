@@ -122,7 +122,7 @@ const About = () => {
                         exit='hidden'
                         variants={fadeIn('right', 0.6)}
                         className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-                            Since I started my journey in development, I have spent time and effort to master several key programming languages. Among my main skills are JavaScript, C#, Python, Dart, etc, which I have worked on for 2 years. Through these languages, I have been able to create creative and efficient solutions that have driven the success of several projects.
+                        Since I started my journey in development, Through these languages, I have been able to create creative and efficient solutions that have driven the success of several projects.
                     </motion.p>
 
                     <motion.div
@@ -179,25 +179,28 @@ const About = () => {
                                     <div className="hidden md:flex">-</div>
                                     <div>{item.stage}</div>
 
-                                    <div className="flex gap-x-4">
+                                    <div className="flex flex-col w-[300px] md:w-[400px] justify-center items-center">
                                         {indexItem === 0 && item.title === 'Web Development' && (
-                                            <div className="text-2xl text-white flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
-                                                <FaHtml5 />
-                                                <FaCss3 />
-                                                <FaJs />
-                                                <FaReact />
-                                                <SiNextdotjs />
-                                                <FaWordpress />
-                                                <FaPython />
-                                                <FaJava />
-                                                <FaNodeJs />
-                                                <SiCsharp />
-                                                <SiTailwindcss />
-                                                <FaAngular />
+                                            <div className="md:flex md:flex-row">
+                                                <div className="text-2xl text-white flex flex-row max-w-max gap-x-2 items-center text-white/60">
+                                                    <FaHtml5 />
+                                                    <FaCss3 />
+                                                    <FaJs />
+                                                    <FaReact />
+                                                    <SiNextdotjs />
+                                                    <FaPython />
+                                                </div>
+                                                <div className="text-2xl text-white flex flex-row max-w-max gap-x-2 items-center text-white/60 justify-around">
+                                                    <FaJava />
+                                                    <FaNodeJs />
+                                                    <SiCsharp />
+                                                    <SiTailwindcss />
+                                                    <FaAngular />
+                                                </div>
                                             </div>
                                         )}
                                         {indexItem === 1 && item.title === 'Mobile' && (
-                                            <div className="flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+                                            <div className="text-2xl flex flex-row max-w-max gap-x-2 items-center text-white/60">
                                                 <SiFlutter />
                                                 <SiSwift />
                                                 <TbBrandReactNative />
@@ -205,7 +208,7 @@ const About = () => {
                                         )}
 
                                         {indexItem === 2 && item.title === 'UI/UX Design' && (
-                                            <div className="flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
+                                            <div className="text-2xl flex flex-row max-w-max gap-x-2 items-center text-white/60">
                                                 <FaFigma />
                                                 <SiAdobexd />
                                                 <SiFramer />

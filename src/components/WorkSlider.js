@@ -37,6 +37,8 @@ const WorkSlider = () => {
                 repository: 'https://github.com/milone1/moviesApp_flutter'
               },
             ],
+          },
+          {
             images: [
               {
                 title: 'qr_scan_flutter',
@@ -56,15 +58,15 @@ const WorkSlider = () => {
             clickable: true,
         }}
         modules={[Pagination]}
-        className="h-[280px] sm:h-[480px] " >
+        className="h-[280px] sm:h-[480px]" >
             {workSlides.slides.map((item, index) => {
                 return <SwiperSlide key={index}>
-                    <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer  ">
+                    <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer ">
                         {item.images.map((path, index) => {
-                            return <div className="w-auto h-[210px] relative rounded-lg overflow-hidden flex items-center justify-center group" key={index}>
+                            return <div className="w-auto h-[120px] md:h-[180px] relative rounded-lg overflow-hidden flex items-center justify-center group" key={index}>
                               <Link href={`${path.repository}`}>
                                 <div className="flex items-center justify-center relative overflow-hidden group ">
-                                    <Image src={path.path} width={500} height={280} alt="" className="object-fill "/>
+                                    <Image src={path.path} width={500} height={280} alt="" className="object-cover rounded-lg"/>
                                     <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#000000] to-[#3282B8] opacity-0 group-hover:opacity-30 transition-all duration-700"></div>
 
                                     <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">

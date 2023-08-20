@@ -27,12 +27,14 @@ const Contact = () => {
 
 
       const handleSubmit = (e) => {
+
         e.preventDefault();
         setLoading(true);
 
-        console.log(process.env.NEXT_PUBLIC_SERVICE)
-        console.log(process.env.NEXT_PUBLIC_TEMPLATE)
-        console.log(process.env.NEXT_PUBLIC_API_KEY)
+        if(form.name.length === 0 || form.email.length === 0 || form.subject.length === 0 || form.message.length === 0) {
+          setLoading(false);
+          return alert('Fill in all fields!')
+        }
 
         emailjs
           .send(
