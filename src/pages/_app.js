@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <title>Erick Millan Marin - Software Developer Portfolio</title>
+        <title>Briefcase Erick Millan Marin - Software Developer</title>
         <meta name="description" content="Explore the projects and skills of Erick Millan Marin, a dedicated software developer focused on delivering efficient and user-friendly applications." />
 
         {/* Open Graph Meta Tags */}
