@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Erick Millan Marin - Software Developer Portfolio" />
         <meta property="og:description" content="Explore the projects and skills of Erick Millan Marin, a dedicated software developer focused on delivering efficient and user-friendly applications." />
-        <meta property="og:image" content="https://asset.cloudinary.com/dijacbsqo/795801800e4a7ac5d1f60633e099dc56" />
+        <meta property="og:image" content="https://res.cloudinary.com/dijacbsqo/image/upload/v1692498475/screen_u6urmo.webp" />
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:url" content="https://briefcase-erickmilan.vercel.app" />
         <meta name="twitter:title" content="Erick Millan Marin - Software Developer Portfolio" />
         <meta name="twitter:description" content="Explore the projects and skills of Erick Millan Marin, a dedicated software developer focused on delivering efficient and user-friendly applications." />
-        <meta name="twitter:image" content="https://asset.cloudinary.com/dijacbsqo/795801800e4a7ac5d1f60633e099dc56" />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dijacbsqo/image/upload/v1692498475/screen_u6urmo.webp" />
       </Head>
       <AnimatePresence mode='wait'>
         <motion.div key={router.route} className='h-full'>
