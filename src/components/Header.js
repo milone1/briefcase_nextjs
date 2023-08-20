@@ -14,7 +14,7 @@ const Header = () => {
               priority={true}
               alt=""
               className="bg-white px-4 py-2 rounded-md shadow-md hidden md:block"
-              src={'/logo.png'}
+              src={'/logo.webp'}
             />
           </Link>
           <Socials />
