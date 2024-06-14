@@ -6,9 +6,9 @@ const Socials = () => {
     return(
         <div className="flex items-center gap-x-5 text-lg">
 
-            <Link href={''} className="hover:text-[#3282B8] transition-all duration-300">
+            {/* <Link href={''} className="hover:text-[#3282B8] transition-all duration-300">
                 <RiInstagramLine />
-            </Link>
+            </Link> */}
 
             <Link href={'https://www.linkedin.com/in/erick-milan-marin-165a8b231/'} className="hover:text-[#3282B8] transition-all duration-300">
                 <RiLinkedinLine />
@@ -18,9 +18,9 @@ const Socials = () => {
                 <RiWhatsappLine />
             </Link>
 
-            <Link href={''} className="hover:text-[#3282B8] transition-all duration-300">
+            {/* <Link href={''} className="hover:text-[#3282B8] transition-all duration-300">
                 <RiTwitterLine />
-            </Link>
+            </Link> */}
 
             <Link href={'https://github.com/milone1'} className="hover:text-[#3282B8] transition-all duration-300">
                 <RiGithubLine />

@@ -49,3 +49,25 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: rgba(225, 225, 225, 0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 25%;
+}
+
+::-webkit-scrollbar-horizontal {
+  width: 6px;
+  backdrop-filter: blur(10px);
+  border-radius: 25%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a0;
+}

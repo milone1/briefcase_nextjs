@@ -5,7 +5,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 import { Pagination } from "swiper";
-import {RxArrowTopRight} from 'react-icons/rx'
+// import {RxArrowTopRight} from 'react-icons/rx'
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import Link from "next/link";
@@ -14,6 +14,20 @@ const WorkSlider = () => {
 
     const workSlides = {
         slides: [
+          {
+            images: [
+              {
+                title: 'Landing Strong',
+                path: 'https://res.cloudinary.com/dijacbsqo/image/upload/v1700013314/Face_ekv2lo.png',
+                repository: 'https://strong.pisonay.com.pe/'
+              },
+              {
+                title: 'Quiz App',
+                path: 'https://miro.medium.com/v2/resize:fit:612/1*IEvCzclpZEQa5b1ZnzNhJw.png',
+                repository: 'https://github.com/milone1/quizzApp.github.io'
+              },
+            ],
+          },
           {
             images: [
               {
@@ -66,7 +80,7 @@ const WorkSlider = () => {
                             return <div className="w-auto h-[120px] md:h-[180px] relative rounded-lg overflow-hidden flex items-center justify-center group" key={index}>
                               <Link href={`${path.repository}`}>
                                 <div className="flex items-center justify-center relative overflow-hidden group">
-                                    <Image src={path.path} width={500} height={280} alt="" className="object-contain rounded-lg"/>
+                                    <Image src={path.path} width={500} height={280} alt="" className="object-cover rounded-lg"/>
                                     <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#000000] to-[#3282B8] opacity-0 group-hover:opacity-30 transition-all duration-700"></div>
 
                                     <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300">

@@ -15,7 +15,8 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Briefcase Erick Millan Marin - Software Developer</title>
         <meta name="description" content="Explore the projects and skills of Erick Millan Marin, a dedicated software developer focused on delivering efficient and user-friendly applications." />
-
+        
+        <meta name="theme-color" content="#131424" />
         {/* Open Graph Meta Tags */}
         <meta property="og:url" content="https://briefcase-erickmilan.vercel.app" />
         <meta property="og:type" content="website" />
